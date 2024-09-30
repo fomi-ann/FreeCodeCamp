@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to click on things.</p>
+
+        <form id="survey-form">
+          <fieldset>
+          <label for="name" id="name-label">Name<input required id="name" type="text" placeholder="Enter your name"/><label>
+          <label for="email" id="email-label">Email<input required id="email" type="email" placeholder="Enter your e-mail"/></label>
+          <label for="number" id="number-label">Age<input id="number" type="number" min="13" max="120" placeholder="Enter your age"/></label>
+          </fieldset>
+
+          <fieldset>
+            <label for="dropdown">Select from two options
+              <select id="dropdown" name="dropdown">
+                <option value="">Click here</option>
+                <option value=1>Option One</option>
+                <option value=2>Option Two</option>
+              </select>
+            </label>
+          </fieldset>
+
+          <fieldset id="radio-checkboxes">
+            <legend>Which one?</legend>
+            <label for="radio-1"><input id="radio-1" type="radio" name="radios" class="inline" value=1 checked/>Classic FM</label>
+            <label for="radio-2"><input id="radio-2" type="radio" name="radios" class="inline" value=2/>Jazz FM</label>
+          </fieldset>
+
+          <fieldset id="checkboxes-fieldset">Series of checkboxes (select all that apply)
+            <label for="op1"><input class="inline" type="checkbox" id="op1" value=1/>First option</label>
+            <label for="op2"><input class="inline" type="checkbox" id="op2" value=2/>Second option</label>
+            <label for="op3"><input class="inline" type="checkbox" id="op3" value=3/>Third option</label>
+            <label for="op4"><input class="inline" type="checkbox" id="op4" value=4/>Forth option</label>
+            <label for="op5"><input class="inline" type="checkbox" id="op5" value=5/>Fifth option</label>
+          </fieldset>
+
+          <fieldset>
+            <label for="comments">Comments: 
+              <textarea id="comments" rows= "4" cols="60" placeholder="Enter your comments here..."></textarea>
+            </label>
+          </fieldset>
+
+ 
+            <input id="submit" type="submit" value="Submit"/>
+
+
+        </form>
+    </main>
+  </body>
+</html>
