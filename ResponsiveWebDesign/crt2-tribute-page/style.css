@@ -1,0 +1,48 @@
+body {
+    font-family: Tahoma, sans-serif;
+    background-color: #C8D9ED;
+    font-size: 16px;
+    display: block;
+    width: 800px;
+    max-width: 900px;
+    min-width: 300px;
+    position: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    text-align: justify
+  }
+  
+  #img-div {
+      padding: 10px auto;
+      margin: 0;
+  }
+  
+  img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+      margin: 0 auto;
+      padding: 10px 0;
+  
+  }
+  
+  #img-caption {
+    text-align: center;
+  }
+  
+  #introduction {
+    text-align: justify;
+  }
+  
+  
+  h1 {
+    font-size: 30px;
+  }
+  
+  #tribute-info {
+    padding: 20px 0;
+  }
+  
+  #link-1 {
+    padding-top: 20px;
+  }
